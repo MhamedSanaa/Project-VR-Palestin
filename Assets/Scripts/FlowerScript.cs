@@ -14,11 +14,19 @@ public class FlowerScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "table")
         {
+            
             collision.gameObject.tag = "Untagged";
             SceneScript.numberOfFlowers -= 1;
             GameObject newF = Instantiate(this.gameObject);
-            newF.transform.position= firstPosition;
+            if (SceneScript.numberOfFlowers == 0)
+            {
 
+            }
+            else
+            {
+                newF.transform.position= firstPosition;
+            }
+            Destroy(this);
             
         }
     }

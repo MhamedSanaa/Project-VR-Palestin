@@ -7,6 +7,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class PointerRaycast : MonoBehaviour
 {
+    public SceneTransitionManager sceneTransitionManager;
     public XRRayInteractor rayInteractor;
     private ActionBasedController actionController;
     private InputHelpers.Button triggerButton = InputHelpers.Button.Trigger;
@@ -27,8 +28,8 @@ public class PointerRaycast : MonoBehaviour
             // Check if the trigger button is pressed
             if (actionController.selectAction.action.ReadValue<float>() > 0.1f && res.collider.gameObject.name == "school")
             {
-                // Trigger button is pressed
                 Debug.Log("Trigger button is pressed");
+                sceneTransitionManager.GoToScene(1);
             }
         }
     }

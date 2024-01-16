@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7543149352259276116}
+  - component: {fileID: 8909220464734675612}
   m_Layer: 0
   m_Name: Bouquet
   m_TagString: Untagged
@@ -37,6 +38,27 @@ Transform:
   - {fileID: 332471350699719779}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!65 &8909220464734675612
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6433358594719957469}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.74499553, y: 0.6797731, z: 0.90776414}
+  m_Center: {x: 0.043672442, y: 0.065110326, z: 0.39458403}
 --- !u!1001 &222811169110236040
 PrefabInstance:
   m_ObjectHideFlags: 0

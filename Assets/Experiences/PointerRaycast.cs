@@ -19,17 +19,17 @@ public class PointerRaycast : MonoBehaviour
 
     private void Update()
     {
-        // Check if the trigger button is pressed
-        if (actionController.selectAction.action.ReadValue<float>() > 0.1f)
-        {
-            // Trigger button is pressed
-            Debug.Log("Trigger button is pressed");
-        }
         RaycastHit res;
         if (rayInteractor.TryGetCurrent3DRaycastHit(out res))
         {
             Vector3 groundPt = res.point; // the coordinate that the ray hits
             Debug.Log(" coordinates on the ground: " + res.collider.gameObject.name);
+            // Check if the trigger button is pressed
+            if (actionController.selectAction.action.ReadValue<float>() > 0.1f && res.collider.gameObject.name == "school")
+            {
+                // Trigger button is pressed
+                Debug.Log("Trigger button is pressed");
+            }
         }
     }
 }

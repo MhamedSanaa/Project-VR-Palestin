@@ -22,6 +22,7 @@ public class FlowerScript : MonoBehaviour
             GameObject newF = Instantiate(this.gameObject);
             if (SceneScript.numberOfFlowers == 0)
             {
+                Debug.Log("teeeeeeeeeeeeeeeeeeeeeees");
                 sceneTransitionManager.GoToSceneAsync(2);
             }
             else

@@ -10,26 +10,29 @@ public class SettingMaterial : MonoBehaviour
     void Start()
     {
         Renderer renderer = GetComponent<Renderer>();
-        if (SceneManager.GetActiveScene().name == "bad")
+        if(renderer != null)
         {
-            //renderer.material = badM;
-        }
-        else
-        {
-            Material[] materials = renderer.materials;
-
-            // Iterate through the materials to find and replace "Drywall_A"
-            for (int i = 0; i < materials.Length; i++)
+            if (SceneManager.GetActiveScene().name == "bad")
             {
-                
-                if (materials[i].ToString().Contains("Drywall_A"))
-                {
-                    materials[i] = goodM; // Replace with "Drywall_A clean"
-                }
+                //renderer.material = badM;
             }
+            else
+            {
+                Material[] materials = renderer.materials;
 
-            // Assign the modified materials array back to the renderer
-            renderer.materials = materials; 
+                // Iterate through the materials to find and replace "Drywall_A"
+                for (int i = 0; i < materials.Length; i++)
+                {
+                
+                    if (materials[i].ToString().Contains("Drywall_A"))
+                    {
+                        materials[i] = goodM; // Replace with "Drywall_A clean"
+                    }
+                }
+
+                // Assign the modified materials array back to the renderer
+                renderer.materials = materials; 
+            }
         }
     }
 

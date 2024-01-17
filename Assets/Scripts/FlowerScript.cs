@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FlowerScript : MonoBehaviour
 {
@@ -22,7 +23,7 @@ public class FlowerScript : MonoBehaviour
             GameObject newF = Instantiate(this.gameObject);
             if (SceneScript.numberOfFlowers == 0)
             {
-                sceneTransitionManager.GoToSceneAsync(2);
+                SceneManager.LoadScene(2);
             }
             else
             {

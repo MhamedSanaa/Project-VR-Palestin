@@ -11,7 +11,8 @@ public class DontDestroy : MonoBehaviour
     {
         // Find all GameObjects with the specified tag
         GameObject[] players = GameObject.FindGameObjectsWithTag(playerTag);
-        DontDestroyOnLoad(players[0]);            
+        DontDestroyOnLoad(players[0]);
+        DontDestroyOnLoad(GameObject.Find("XR Interaction Manager"));
           
     }
 }

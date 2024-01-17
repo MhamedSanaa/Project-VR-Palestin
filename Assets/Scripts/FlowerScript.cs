@@ -9,7 +9,8 @@ public class FlowerScript : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        firstPosition = this.transform.localPosition;
+        firstPosition = new Vector3(2.45499992f, 3.80299997f, -8.55000019f);
+        sceneTransitionManager = GameObject.Find("TransitionManager").GetComponent<SceneTransitionManager>();
     }
     private void OnCollisionEnter(Collision collision)
     {

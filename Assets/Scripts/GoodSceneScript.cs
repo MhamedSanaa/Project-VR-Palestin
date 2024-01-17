@@ -35,6 +35,11 @@ public class GoodSceneScript : MonoBehaviour
         fadeIn = GameObject.Find("FadeScreen");
         fadeIn.GetComponent<FadeScreen>().FadeIn();
     }
+    void Awake()
+    {
+        fadeIn = GameObject.Find("FadeScreen");
+        fadeIn.GetComponent<FadeScreen>().FadeIn();
+    }
 
     // Update is called once per frame
     void Update()

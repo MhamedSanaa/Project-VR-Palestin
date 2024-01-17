@@ -1235,7 +1235,6 @@ GameObject:
   - component: {fileID: 478838578}
   - component: {fileID: 478838577}
   - component: {fileID: 478838576}
-  - component: {fileID: 478838575}
   m_Layer: 5
   m_Name: Gaze Interactable Info (3)
   m_TagString: Untagged
@@ -1263,20 +1262,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.5}
   m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &478838575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478838573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 307001f449087eb4a8c9d3c511fb3483, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1596574514}
-  canvas: {fileID: 478838579}
 --- !u!114 &478838576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1532,7 +1517,6 @@ GameObject:
   - component: {fileID: 553532373}
   - component: {fileID: 553532372}
   - component: {fileID: 553532371}
-  - component: {fileID: 553532370}
   m_Layer: 5
   m_Name: title
   m_TagString: Untagged
@@ -1560,20 +1544,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.5}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &553532370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 553532368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 307001f449087eb4a8c9d3c511fb3483, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1596574514}
-  canvas: {fileID: 553532374}
 --- !u!114 &553532371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1777,7 +1747,6 @@ GameObject:
   - component: {fileID: 637872634}
   - component: {fileID: 637872633}
   - component: {fileID: 637872632}
-  - component: {fileID: 637872631}
   m_Layer: 5
   m_Name: title
   m_TagString: Untagged
@@ -1805,20 +1774,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.5}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &637872631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 637872629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 307001f449087eb4a8c9d3c511fb3483, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1596574514}
-  canvas: {fileID: 637872635}
 --- !u!114 &637872632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2200,7 +2155,6 @@ GameObject:
   - component: {fileID: 672523535}
   - component: {fileID: 672523534}
   - component: {fileID: 672523533}
-  - component: {fileID: 672523532}
   m_Layer: 5
   m_Name: title
   m_TagString: Untagged
@@ -2228,20 +2182,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.5}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &672523532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672523530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 307001f449087eb4a8c9d3c511fb3483, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1596574514}
-  canvas: {fileID: 672523536}
 --- !u!114 &672523533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2418,7 +2358,6 @@ GameObject:
   - component: {fileID: 690519770}
   - component: {fileID: 690519769}
   - component: {fileID: 690519768}
-  - component: {fileID: 690519767}
   m_Layer: 5
   m_Name: Gaze Interactable Info (3)
   m_TagString: Untagged
@@ -2446,20 +2385,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.5}
   m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &690519767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 690519765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 307001f449087eb4a8c9d3c511fb3483, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1596574514}
-  canvas: {fileID: 690519771}
 --- !u!114 &690519768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3597,7 +3522,6 @@ GameObject:
   - component: {fileID: 1212751118}
   - component: {fileID: 1212751117}
   - component: {fileID: 1212751116}
-  - component: {fileID: 1212751115}
   m_Layer: 5
   m_Name: Gaze Interactable Info (3)
   m_TagString: Untagged
@@ -3625,20 +3549,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.5}
   m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1212751115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1212751113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 307001f449087eb4a8c9d3c511fb3483, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1596574514}
-  canvas: {fileID: 1212751119}
 --- !u!114 &1212751116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3828,7 +3738,6 @@ GameObject:
   - component: {fileID: 1269879243}
   - component: {fileID: 1269879242}
   - component: {fileID: 1269879241}
-  - component: {fileID: 1269879240}
   m_Layer: 5
   m_Name: title
   m_TagString: Untagged
@@ -3856,20 +3765,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.5}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1269879240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1269879238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 307001f449087eb4a8c9d3c511fb3483, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1596574514}
-  canvas: {fileID: 1269879244}
 --- !u!114 &1269879241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5357,7 +5252,6 @@ GameObject:
   - component: {fileID: 1974673036}
   - component: {fileID: 1974673035}
   - component: {fileID: 1974673034}
-  - component: {fileID: 1974673033}
   m_Layer: 5
   m_Name: title
   m_TagString: Untagged
@@ -5385,20 +5279,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.5}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1974673033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974673031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 307001f449087eb4a8c9d3c511fb3483, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1596574514}
-  canvas: {fileID: 1974673037}
 --- !u!114 &1974673034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5710,7 +5590,6 @@ GameObject:
   - component: {fileID: 2104910178}
   - component: {fileID: 2104910177}
   - component: {fileID: 2104910176}
-  - component: {fileID: 2104910175}
   m_Layer: 5
   m_Name: Gaze Interactable Info (3)
   m_TagString: Untagged
@@ -5738,20 +5617,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.5}
   m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2104910175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2104910173}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 307001f449087eb4a8c9d3c511fb3483, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1596574514}
-  canvas: {fileID: 2104910179}
 --- !u!114 &2104910176
 MonoBehaviour:
   m_ObjectHideFlags: 0

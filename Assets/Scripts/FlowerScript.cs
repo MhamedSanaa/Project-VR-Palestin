@@ -41,6 +41,7 @@ public class FlowerScript : MonoBehaviour
             if (SceneScript.numberOfFlowers == 0)
             {
                 sceneTransitionManager.GoToSceneAsync(2);
+                SavePlayerTransform();
             }
             else
             {

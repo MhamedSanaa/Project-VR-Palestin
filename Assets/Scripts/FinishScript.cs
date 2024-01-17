@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FinishScript : MonoBehaviour
 {
@@ -12,6 +13,6 @@ public class FinishScript : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        sceneTransitionManager.GoToSceneAsync(2);
+        sceneTransitionManager.GoToSceneAsync(0);
     }
 }

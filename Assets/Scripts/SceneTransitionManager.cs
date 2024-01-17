@@ -8,6 +8,11 @@ public class SceneTransitionManager : MonoBehaviour
 {
     public FadeScreen fadeScreen;
 
+    private void Start()
+    {
+        fadeScreen = GameObject.Find("FadeScreen").GetComponent<FadeScreen>();
+    }
+
     public void GoToScene(int sceneId)
     {
         StartCoroutine(GoToSceneRoutine(sceneId));

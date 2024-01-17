@@ -7,6 +7,9 @@ public class PlayMyMusic : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        GetComponent<AudioSource>().Play();
+        if (!GetComponent<AudioSource>().isPlaying)
+        {
+            GetComponent<AudioSource>().Play();
+        }
     }
 }

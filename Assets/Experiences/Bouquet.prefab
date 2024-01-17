@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7543149352259276116}
   - component: {fileID: 5391860898102677028}
+  - component: {fileID: 327885981024891679}
   m_Layer: 0
   m_Name: Bouquet
   m_TagString: Untagged
@@ -59,6 +60,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.7145536, z: 1.0007182}
   m_Center: {x: 0.00000022859909, y: 0.046808124, z: 0.426049}
+--- !u!114 &327885981024891679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6433358594719957469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d881c44c35cb47740b5db29f17779c1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneTransitionManager: {fileID: 8701694472530296997, guid: 057ce123b3218064788e9f572bdc1109, type: 3}
+  firstPosition: {x: 0, y: 0, z: 0}
 --- !u!1001 &222811169110236040
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -30,16 +30,16 @@ public class GoodSceneScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        LoadPlayerTransform();
         player = GameObject.Find("XR Origin (XR Rig)");
-        fadeIn = GameObject.Find("FadeScreen");
+        LoadPlayerTransform();
+        //fadeIn = GameObject.Find("FadeScreen");
         fadeIn.GetComponent<FadeScreen>().FadeIn();
     }
-    void Awake()
-    {
-        fadeIn = GameObject.Find("FadeScreen");
-        fadeIn.GetComponent<FadeScreen>().FadeIn();
-    }
+    //void Awake()
+    //{
+    //    fadeIn = GameObject.Find("FadeScreen");
+    //    fadeIn.GetComponent<FadeScreen>().FadeIn();
+    //}
 
     // Update is called once per frame
     void Update()

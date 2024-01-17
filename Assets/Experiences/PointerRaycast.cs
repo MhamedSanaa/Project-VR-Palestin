@@ -29,7 +29,7 @@ public class PointerRaycast : MonoBehaviour
             if (actionController.selectAction.action.ReadValue<float>() > 0.1f && res.collider.gameObject.name == "school")
             {
                 Debug.Log("Trigger button is pressed");
-                sceneTransitionManager.GoToScene(1);
+                sceneTransitionManager.GoToSceneAsync(1);
             }
         }
     }

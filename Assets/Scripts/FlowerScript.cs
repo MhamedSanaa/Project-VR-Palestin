@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FlowerScript : MonoBehaviour
 {
+    public SceneTransitionManager sceneTransitionManager;
     public Vector3 firstPosition;
     // Start is called before the first frame update
     private void Start()
@@ -20,7 +21,7 @@ public class FlowerScript : MonoBehaviour
             GameObject newF = Instantiate(this.gameObject);
             if (SceneScript.numberOfFlowers == 0)
             {
-
+                sceneTransitionManager.GoToSceneAsync(2);
             }
             else
             {

@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class SceneScript : MonoBehaviour
 {
-    public static float numberOfFlowers = 16;
-    public static bool isHandlingFlower=false;
+    public static float numberOfFlowers = 9;
     // Start is called before the first frame update
     void Start()
     {
